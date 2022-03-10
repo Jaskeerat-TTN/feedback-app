@@ -12,7 +12,6 @@ import { FeedbackProvider } from "./context/FeedbackContext";
 import FeedbackData from "./data/FeedbackData";
 
 function App() {
-    const [feedback, setFeedback] = useState(FeedbackData);
 
     return (
         <FeedbackProvider>
